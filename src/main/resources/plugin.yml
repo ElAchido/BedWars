@@ -1,0 +1,14 @@
+name: BedWars
+version: '${project.version}'
+main: com.elach.bedwars.BedWars
+api-version: 1.19
+authors: [ElAchido]
+depend:
+  - TAB
+commands:
+  bedwars:
+    description: Main command of the plugin.
+    aliases:
+      - bd
+      - bedw
+      - bwars
