@@ -209,13 +209,13 @@ public class EventsBedWars implements Listener {
                 if (plugin.getMenus().containsBlock(e.getBlock().getType()) || TeamInfo.allWoolMaterials.contains(e.getBlock().getType())) {
                     for (TeamInfo teamInfo : arena.getTeams()) {
                         if (teamInfo.getNoBuildRegion().contains(e.getBlock().getLocation())) {
-                            e.getPlayer().sendMessage(Utils.translateMessage("&cNo puedes construir en el spawn de una isla."));
+                            e.getPlayer().sendMessage(Utils.translateMessage("&cYou cannot build in a island spawn."));
                             e.setCancelled(true);
                             return;
                         }
                     }
                     if (!arena.getArenaRegion().contains(e.getBlock().getLocation())) {
-                        e.getPlayer().sendMessage(Utils.translateMessage("&cNo puedes construir fuera del mapa."));
+                        e.getPlayer().sendMessage(Utils.translateMessage("&cYou cannot build outside the map."));
                         e.setCancelled(true);
                     } else if (e.getBlock().getType().equals(Material.TNT)) {
                         Location location = e.getBlock().getLocation();
