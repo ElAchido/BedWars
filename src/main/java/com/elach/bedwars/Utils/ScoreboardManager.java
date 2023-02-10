@@ -3,12 +3,9 @@ package com.elach.bedwars.Utils;
 import com.elach.bedwars.Arena.ArenaUtils.TeamInfo;
 import me.neznamy.tab.api.TabAPI;
 import me.neznamy.tab.api.TabPlayer;
-import me.neznamy.tab.api.team.UnlimitedNametagManager;
-import net.minecraft.server.network.ServerGamePacketListenerImpl;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.scoreboard.*;
 
 import java.util.Arrays;

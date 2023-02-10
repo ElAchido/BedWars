@@ -1,6 +1,5 @@
 package com.elach.bedwars;
 
-import com.elach.bedwars.Arena.ArenaUtils.State;
 import com.elach.bedwars.Arena.ArenaUtils.TeamInfo;
 import com.elach.bedwars.Arena.Database.MySQL;
 import com.elach.bedwars.Arena.System.Arena;
